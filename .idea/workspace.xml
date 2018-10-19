@@ -2,17 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04cf6f79-8367-40ed-980f-7ad32b650ad3" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/rabbitmq-springboot/.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/rabbitmq-springboot/.mvn/wrapper/maven-wrapper.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/rabbitmq-springboot/.mvn/wrapper/maven-wrapper.properties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/rabbitmq-springboot/mvnw" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/rabbitmq-springboot/mvnw.cmd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/rabbitmq-springboot/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/rabbitmq-springboot/src/main/java/com/pyy/springboot/RabbitmqSpringbootApplication.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/rabbitmq-springboot/src/main/resources/application.properties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/rabbitmq-springboot/src/test/java/com/pyy/springboot/RabbitmqSpringbootApplicationTests.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/rabbitmq-springboot-producer/src/main/java/com/pyy/springboot/MainConfig.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/rabbitmq-springboot-producer/src/main/java/com/pyy/springboot/producer/RabbitSender.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/rabbitmq-springboot-producer/src/main/resources/application.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/rabbitmq-springboot-producer/src/test/java/com/pyy/springboot/RabbitmqSpringbootApplicationTests.java" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-springboot/.gitignore" afterPath="$PROJECT_DIR$/rabbitmq-springboot-producer/.gitignore" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-springboot/.mvn/wrapper/maven-wrapper.jar" afterPath="$PROJECT_DIR$/rabbitmq-springboot-producer/.mvn/wrapper/maven-wrapper.jar" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-springboot/.mvn/wrapper/maven-wrapper.properties" afterPath="$PROJECT_DIR$/rabbitmq-springboot-producer/.mvn/wrapper/maven-wrapper.properties" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-springboot/mvnw" afterPath="$PROJECT_DIR$/rabbitmq-springboot-producer/mvnw" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-springboot/mvnw.cmd" afterPath="$PROJECT_DIR$/rabbitmq-springboot-producer/mvnw.cmd" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-springboot/pom.xml" afterPath="$PROJECT_DIR$/rabbitmq-springboot-producer/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-springboot/src/main/java/com/pyy/springboot/RabbitmqSpringbootApplication.java" afterPath="$PROJECT_DIR$/rabbitmq-springboot-producer/src/main/java/com/pyy/springboot/RabbitmqSpringbootApplication.java" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-springboot/src/main/resources/application.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-springboot/src/test/java/com/pyy/springboot/RabbitmqSpringbootApplicationTests.java" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/rabbitmq-springboot/target/" />
+    <ignored path="$PROJECT_DIR$/rabbitmq-springboot-consumer/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,12 +25,75 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rabbitmq-springboot-consumer/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="50" lean-forward="false" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RabbitmqSpringbootApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rabbitmq-springboot-consumer/src/main/java/com/pyy/springboot/RabbitmqSpringbootApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainConfig.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/rabbitmq-springboot-consumer/src/main/java/com/pyy/springboot/MainConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rabbitmq-springboot-producer/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/rabbitmq-springboot/src/main/java/com/pyy/springboot/MainConfig.java" />
+        <option value="$PROJECT_DIR$/rabbitmq-springboot/src/test/java/com/pyy/springboot/RabbitmqSpringbootApplicationTests.java" />
+        <option value="$PROJECT_DIR$/rabbitmq-springboot/src/main/java/com/pyy/springboot/producer/RabbitSender.java" />
+        <option value="$PROJECT_DIR$/rabbitmq-springboot/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/rabbitmq-springboot-producer/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/rabbitmq-springboot-consumer/src/main/resources/application.properties" />
+      </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -51,6 +119,9 @@
     <option name="y" value="58" />
     <option name="width" value="1264" />
     <option name="height" value="674" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -78,25 +149,25 @@
             <path>
               <item name="springboot-rabbitmq" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot-rabbitmq" type="462c0819:PsiDirectoryNode" />
-              <item name="rabbitmq-springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitmq-springboot-consumer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot-rabbitmq" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot-rabbitmq" type="462c0819:PsiDirectoryNode" />
-              <item name="rabbitmq-springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitmq-springboot-consumer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot-rabbitmq" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot-rabbitmq" type="462c0819:PsiDirectoryNode" />
-              <item name="rabbitmq-springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitmq-springboot-consumer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot-rabbitmq" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot-rabbitmq" type="462c0819:PsiDirectoryNode" />
-              <item name="rabbitmq-springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitmq-springboot-consumer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -104,11 +175,45 @@
             <path>
               <item name="springboot-rabbitmq" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot-rabbitmq" type="462c0819:PsiDirectoryNode" />
-              <item name="rabbitmq-springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitmq-springboot-consumer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="springboot" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-rabbitmq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-rabbitmq" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitmq-springboot-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-rabbitmq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-rabbitmq" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitmq-springboot-producer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-rabbitmq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-rabbitmq" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitmq-springboot-producer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-rabbitmq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-rabbitmq" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitmq-springboot-producer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-rabbitmq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-rabbitmq" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitmq-springboot-producer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -141,7 +246,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.RabbitmqSpringbootApplicationTests.testSender1">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -162,6 +267,31 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
+    </configuration>
+    <configuration name="RabbitmqSpringbootApplicationTests.testSender1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.pyy.springboot.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="rabbitmq-springboot" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.pyy.springboot" />
+      <option name="MAIN_CLASS_NAME" value="com.pyy.springboot.RabbitmqSpringbootApplicationTests" />
+      <option name="METHOD_NAME" value="testSender1" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -189,6 +319,12 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+    </configuration>
+    <configuration name="RabbitmqSpringbootApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.pyy.springboot.RabbitmqSpringbootApplication" />
+      <module name="rabbitmq-springboot" />
+      <envs />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -223,6 +359,15 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.RabbitmqSpringbootApplicationTests.testSender1" />
+      <item index="1" class="java.lang.String" itemvalue="Spring Boot.RabbitmqSpringbootApplication" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.RabbitmqSpringbootApplicationTests.testSender1" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -237,28 +382,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1539919115765</updated>
-      <workItem from="1539919116964" duration="52000" />
+      <workItem from="1539919116964" duration="4651000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="RabbitmqSpringbootApplicationTests_testSender1 - 2018.10.19 at 15h 33m 55s.xml">
+      <configuration name="RabbitmqSpringbootApplicationTests.testSender1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RabbitmqSpringbootApplicationTests_testSender1 - 2018.10.19 at 15h 34m 50s.xml">
+      <configuration name="RabbitmqSpringbootApplicationTests.testSender1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RabbitmqSpringbootApplicationTests_testSender1 - 2018.10.19 at 15h 44m 31s.xml">
+      <configuration name="RabbitmqSpringbootApplicationTests.testSender1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RabbitmqSpringbootApplicationTests_testSender1 - 2018.10.19 at 15h 46m 40s.xml">
+      <configuration name="RabbitmqSpringbootApplicationTests.testSender1" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52000" />
+    <option name="totallyTimeSpent" value="4651000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="93" y="58" width="1264" height="674" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32978722" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.51122624" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24959083" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4304419" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -284,6 +445,329 @@
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-rabbit/2.0.8.RELEASE/spring-rabbit-2.0.8.RELEASE.jar!/org/springframework/amqp/rabbit/core/RabbitTemplate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="1595" column="21" lean-forward="false" selection-start-line="1595" selection-start-column="21" selection-end-line="1595" selection-end-column="21" />
+          <folding>
+            <marker date="1539918611000" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1539918611000" expanded="false" signature="160:5083" ph="..." />
+            <marker date="1539918611000" expanded="true" signature="6429:6484" ph="{...}" />
+            <marker date="1539918611000" expanded="false" signature="8520:8531" ph=" { " />
+            <marker date="1539918611000" expanded="false" signature="8560:8566" ph=" }" />
+            <marker date="1539918611000" expanded="false" signature="8630:8641" ph=" { " />
+            <marker date="1539918611000" expanded="false" signature="8686:8692" ph=" }" />
+            <marker date="1539918611000" expanded="false" signature="8736:8747" ph=" { " />
+            <marker date="1539918611000" expanded="false" signature="8802:8808" ph=" }" />
+            <marker date="1539918611000" expanded="false" signature="8854:8865" ph=" { " />
+            <marker date="1539918611000" expanded="false" signature="8914:8920" ph=" }" />
+            <marker date="1539918611000" expanded="false" signature="8953:8964" ph=" { " />
+            <marker date="1539918611000" expanded="false" signature="8985:8991" ph=" }" />
+            <marker date="1539918611000" expanded="false" signature="9041:9052" ph=" { " />
+            <marker date="1539918611000" expanded="false" signature="9081:9087" ph=" }" />
+            <marker date="1539918611000" expanded="false" signature="9122:9133" ph=" { " />
+            <marker date="1539918611000" expanded="false" signature="9156:9162" ph=" }" />
+            <marker date="1539918611000" expanded="false" signature="9202:9213" ph=" { " />
+            <marker date="1539918611000" expanded="false" signature="9232:9238" ph=" }" />
+            <marker date="1539918611000" expanded="false" signature="9284:9295" ph=" { " />
+            <marker date="1539918611000" expanded="false" signature="9320:9326" ph=" }" />
+            <marker date="1539918611000" expanded="false" signature="9359:9370" ph=" { " />
+            <marker date="1539918611000" expanded="false" signature="9391:9397" ph=" }" />
+            <marker date="1539918611000" expanded="true" signature="9465:9557" ph="{...}" />
+            <marker date="1539918611000" expanded="false" signature="9613:9624" ph=" { " />
+            <marker date="1539918611000" expanded="false" signature="9661:9667" ph=" }" />
+            <marker date="1539918611000" expanded="false" signature="9719:9730" ph=" { " />
+            <marker date="1539918611000" expanded="false" signature="9763:9769" ph=" }" />
+            <marker date="1539918611000" expanded="false" signature="9841:9852" ph=" { " />
+            <marker date="1539918611000" expanded="false" signature="9893:9899" ph=" }" />
+            <marker date="1539918611000" expanded="true" signature="10002:10178" ph="{...}" />
+            <marker date="1539918611000" expanded="false" signature="10252:10263" ph=" { " />
+            <marker date="1539918611000" expanded="false" signature="10302:10308" ph=" }" />
+            <marker date="1539918611000" expanded="false" signature="10359:10370" ph=" { " />
+            <marker date="1539918611000" expanded="false" signature="10399:10405" ph=" }" />
+            <marker date="1539918611000" expanded="true" signature="10490:10704" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="10786:10994" ph="{...}" />
+            <marker date="1539918611000" expanded="false" signature="11043:11054" ph=" { " />
+            <marker date="1539918611000" expanded="false" signature="11112:11118" ph=" }" />
+            <marker date="1539918611000" expanded="true" signature="11191:11341" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="11416:11590" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="11703:11806" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="11925:12034" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="12093:12316" ph="{...}" />
+            <marker date="1539918611000" expanded="false" signature="12379:12390" ph=" { " />
+            <marker date="1539918611000" expanded="false" signature="12425:12431" ph=" }" />
+            <marker date="1539918611000" expanded="false" signature="12506:12517" ph=" { " />
+            <marker date="1539918611000" expanded="false" signature="12558:12564" ph=" }" />
+            <marker date="1539918611000" expanded="true" signature="12644:12808" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="12910:13256" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="13356:13696" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="13805:13886" ph="{...}" />
+            <marker date="1539918611000" expanded="false" signature="13945:13956" ph=" { " />
+            <marker date="1539918611000" expanded="false" signature="13993:13999" ph=" }" />
+            <marker date="1539918611000" expanded="true" signature="14081:14156" ph="{...}" />
+            <marker date="1539918611000" expanded="false" signature="14222:14233" ph=" { " />
+            <marker date="1539918611000" expanded="false" signature="14274:14280" ph=" }" />
+            <marker date="1539918611000" expanded="true" signature="14349:14430" ph="{...}" />
+            <marker date="1539918611000" expanded="false" signature="14472:14483" ph=" { " />
+            <marker date="1539918611000" expanded="false" signature="14504:14510" ph=" }" />
+            <marker date="1539918611000" expanded="false" signature="14566:14577" ph=" { " />
+            <marker date="1539918611000" expanded="false" signature="14610:14616" ph=" }" />
+            <marker date="1539918611000" expanded="false" signature="14681:14692" ph=" { " />
+            <marker date="1539918611000" expanded="false" signature="14735:14741" ph=" }" />
+            <marker date="1539918611000" expanded="false" signature="14788:14799" ph=" { " />
+            <marker date="1539918611000" expanded="false" signature="14834:14840" ph=" }" />
+            <marker date="1539918611000" expanded="true" signature="14916:14985" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="15038:15796" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="15862:16563" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="16602:16800" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="16689:16786" ph="{...}" />
+            <marker date="1539918611000" expanded="false" signature="16831:16842" ph=" { " />
+            <marker date="1539918611000" expanded="false" signature="16857:16863" ph=" }" />
+            <marker date="1539918611000" expanded="true" signature="16894:16901" ph="{}" />
+            <marker date="1539918611000" expanded="true" signature="16932:17285" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="17315:17322" ph="{}" />
+            <marker date="1539918611000" expanded="true" signature="17355:17595" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="17636:17742" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="17785:18716" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="18190:18316" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="18777:18844" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="18924:18986" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="19083:19163" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="19293:19669" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="19329:19570" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="19773:20912" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="20981:21080" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="21193:21286" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="21374:21468" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="21589:21677" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="21782:21871" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="22009:22114" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="22227:22326" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="22458:22575" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="22721:22837" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="23002:23113" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="23262:23374" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="23556:23806" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="23858:23949" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="23996:24126" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="24184:25107" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="24247:24944" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="25177:25335" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="25402:26316" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="25465:26249" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="26377:26448" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="26525:26603" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="26682:26768" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="26865:27094" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="27188:27265" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="27377:27461" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="27575:27667" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="27799:28039" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="28144:28223" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="28346:28447" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="28588:28689" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="28858:29020" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="28937:29012" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="29175:29278" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="29451:29542" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="29718:30091" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="29770:29987" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="30181:31695" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="31806:33481" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="32006:32137" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="33529:33778" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="33965:36112" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="36186:36270" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="36377:36480" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="36573:36669" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="36795:36893" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="37003:37100" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="37243:37336" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="37415:37497" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="37609:37745" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="37843:37937" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="38068:38199" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="38314:38418" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="38566:38692" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="38814:38948" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="39103:39233" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="39374:39520" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="39694:39819" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="39977:40103" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="40294:40540" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="40668:40770" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="40931:41087" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="41234:41348" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="41528:41679" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="41843:41967" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="42164:42310" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="42481:42635" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="42839:42989" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="43179:43345" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="43568:43713" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="43920:44066" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="44306:44571" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="44748:45125" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="45190:45337" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="45464:46123" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="46263:49031" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="46315:48932" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="47241:48322" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="47385:48308" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="49115:49387" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="49523:49978" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="49569:49706" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="49759:49879" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="50113:52243" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="52412:53729" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="53847:55105" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="55325:55913" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="55966:56080" ph="{...}" />
+            <marker date="1539918611000" expanded="false" signature="56133:56144" ph=" { " />
+            <marker date="1539918611000" expanded="false" signature="56201:56207" ph=" }" />
+            <marker date="1539918611000" expanded="true" signature="56299:56923" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="56424:56513" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="57017:59794" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="59850:61968" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="59975:60121" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="62019:62580" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="62633:63206" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="63296:63703" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="63867:65424" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="65566:65838" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="65937:66468" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="66536:66674" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="66740:66855" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="66924:67058" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="67167:67806" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="67896:68182" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="68282:68541" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="68610:68844" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="68922:69374" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="69421:70256" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="70332:70632" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="70792:72360" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="71388:71569" ph="{...}" />
+            <marker date="1539918611000" expanded="false" signature="72400:72411" ph=" { " />
+            <marker date="1539918611000" expanded="false" signature="72447:72453" ph=" }" />
+            <marker date="1539918611000" expanded="false" signature="72492:72503" ph=" { " />
+            <marker date="1539918611000" expanded="false" signature="72515:72521" ph=" }" />
+            <marker date="1539918611000" expanded="true" signature="72563:72824" ph="{...}" />
+            <marker date="1539918611000" expanded="false" signature="72853:72864" ph=" { " />
+            <marker date="1539918611000" expanded="false" signature="72881:72887" ph=" }" />
+            <marker date="1539918611000" expanded="true" signature="72932:74011" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="74107:75129" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="75288:76481" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="75459:76049" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="75537:75632" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="75694:75796" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="75936:76039" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="76544:76644" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="76708:76786" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="76865:77125" ph="{...}" />
+            <marker date="1539918611000" expanded="false" signature="76915:76930" ph=" { " />
+            <marker date="1539918611000" expanded="false" signature="76945:76955" ph=" }" />
+            <marker date="1539918611000" expanded="true" signature="76990:77119" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="77165:78811" ph="{...}" />
+            <marker date="1539918611000" expanded="false" signature="77345:77360" ph=" { " />
+            <marker date="1539918611000" expanded="false" signature="77399:77409" ph=" }" />
+            <marker date="1539918611000" expanded="false" signature="77450:77465" ph=" { " />
+            <marker date="1539918611000" expanded="false" signature="77490:77500" ph=" }" />
+            <marker date="1539918611000" expanded="false" signature="77558:77573" ph=" { " />
+            <marker date="1539918611000" expanded="false" signature="77606:77616" ph=" }" />
+            <marker date="1539918611000" expanded="false" signature="77661:77676" ph=" { " />
+            <marker date="1539918611000" expanded="false" signature="77705:77715" ph=" }" />
+            <marker date="1539918611000" expanded="false" signature="77781:77796" ph=" { " />
+            <marker date="1539918611000" expanded="false" signature="77837:77847" ph=" }" />
+            <marker date="1539918611000" expanded="true" signature="77906:78008" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="78094:78232" ph="{...}" />
+            <marker date="1539918611000" expanded="true" signature="78285:78611" ph="{...}" />
+            <marker date="1539918611000" expanded="false" signature="78653:78668" ph=" { " />
+            <marker date="1539918611000" expanded="false" signature="78690:78700" ph=" }" />
+            <marker date="1539918611000" expanded="false" signature="78762:78777" ph=" { " />
+            <marker date="1539918611000" expanded="false" signature="78795:78805" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-rabbit/2.0.8.RELEASE/spring-rabbit-2.0.8.RELEASE-sources.jar!/org/springframework/amqp/rabbit/core/RabbitTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq-springboot-producer/src/main/java/com/pyy/springboot/MainConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq-springboot-producer/src/test/java/com/pyy/springboot/RabbitmqSpringbootApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="24" column="53" lean-forward="false" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq-springboot-producer/src/main/java/com/pyy/springboot/producer/RabbitSender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-22">
+          <caret line="24" column="22" lean-forward="false" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq-springboot-consumer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq-springboot-producer/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq-springboot-consumer/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="50" lean-forward="false" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq-springboot-consumer/src/main/java/com/pyy/springboot/RabbitmqSpringbootApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq-springboot-consumer/src/main/java/com/pyy/springboot/MainConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
