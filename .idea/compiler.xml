@@ -7,10 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="rabbitmq-springboot" />
+        <module name="rabbitmq-springboot-consumer" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="rabbitmq-springboot" target="1.8" />
+      <module name="rabbitmq-springboot-consumer" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -1,5 +1,6 @@
 package com.pyy.springboot;
 
+import com.pyy.springboot.entity.Order;
 import com.pyy.springboot.producer.RabbitSender;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -25,6 +26,15 @@ public class RabbitmqSpringbootApplicationTests {
 		properties.put("send_time", LocalDate.now());
 
 		rabbitSender.send("hello rabbitmq for springBoot", properties);
+	}
+
+
+	@Test
+	public void testSenderOrder() throws Exception {
+		Order order = new Order();
+		order.setId("111");
+		order.setName("订单详情xxx");
+		rabbitSender.sendOrder(order);
 	}
 
 }

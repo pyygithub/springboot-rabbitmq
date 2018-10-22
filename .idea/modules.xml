@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/rabbitmq-springboot-producer/rabbitmq-springboot.iml" filepath="$PROJECT_DIR$/rabbitmq-springboot-producer/rabbitmq-springboot.iml" />
       <module fileurl="file://$PROJECT_DIR$/rabbitmq-springboot-consumer/rabbitmq-springboot-consumer.iml" filepath="$PROJECT_DIR$/rabbitmq-springboot-consumer/rabbitmq-springboot-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/springboot-rabbitmq.iml" filepath="$PROJECT_DIR$/.idea/springboot-rabbitmq.iml" />
     </modules>
