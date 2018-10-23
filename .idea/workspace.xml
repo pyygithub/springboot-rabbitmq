@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="04cf6f79-8367-40ed-980f-7ad32b650ad3" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/rabbitmq-springboot-consumer/src/main/java/com/pyy/springboot/consumer/RabbitReceiver.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/rabbitmq-springboot-consumer/src/main/java/com/pyy/springboot/entity/Order.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/rabbitmq-springboot-producer/src/main/java/com/pyy/springboot/entity/Order.java" />
-      <change beforePath="$PROJECT_DIR$/rabbitmq-springboot-consumer/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/rabbitmq-springboot-consumer/src/main/resources/application.properties" />
-      <change beforePath="$PROJECT_DIR$/rabbitmq-springboot-producer/src/main/java/com/pyy/springboot/producer/RabbitSender.java" afterPath="$PROJECT_DIR$/rabbitmq-springboot-producer/src/main/java/com/pyy/springboot/producer/RabbitSender.java" />
-      <change beforePath="$PROJECT_DIR$/rabbitmq-springboot-producer/src/test/java/com/pyy/springboot/RabbitmqSpringbootApplicationTests.java" afterPath="$PROJECT_DIR$/rabbitmq-springboot-producer/src/test/java/com/pyy/springboot/RabbitmqSpringbootApplicationTests.java" />
-    </list>
+    <list default="true" id="04cf6f79-8367-40ed-980f-7ad32b650ad3" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/rabbitmq-springboot/target/" />
     <ignored path="$PROJECT_DIR$/rabbitmq-springboot-consumer/target/" />
     <ignored path="$PROJECT_DIR$/rabbitmq-springboot-producer/target/" />
@@ -516,7 +509,7 @@
       <option name="presentableId" value="Default" />
       <updated>1539919115765</updated>
       <workItem from="1539919116964" duration="12352000" />
-      <workItem from="1540193249564" duration="1417000" />
+      <workItem from="1540193249564" duration="1596000" />
     </task>
     <servers />
   </component>
@@ -553,7 +546,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13769000" />
+    <option name="totallyTimeSpent" value="13948000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="836" extended-state="0" />
@@ -667,14 +660,14 @@
         <state relative-caret-position="90">
           <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding>
-            <element signature="e#187#188#0" expanded="true" />
-            <element signature="e#212#213#0" expanded="true" />
-            <element signature="e#248#249#0" expanded="true" />
-            <element signature="e#276#277#0" expanded="true" />
-            <element signature="e#307#308#0" expanded="true" />
-            <element signature="e#334#335#0" expanded="true" />
-            <element signature="e#374#375#0" expanded="true" />
-            <element signature="e#406#407#0" expanded="true" />
+            <element signature="e#187#188#0" expanded="false" />
+            <element signature="e#212#213#0" expanded="false" />
+            <element signature="e#248#249#0" expanded="false" />
+            <element signature="e#276#277#0" expanded="false" />
+            <element signature="e#307#308#0" expanded="false" />
+            <element signature="e#334#335#0" expanded="false" />
+            <element signature="e#374#375#0" expanded="false" />
+            <element signature="e#406#407#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -762,14 +755,14 @@
         <state relative-caret-position="75">
           <caret line="5" column="42" lean-forward="false" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
           <folding>
-            <element signature="e#187#188#0" expanded="true" />
-            <element signature="e#212#213#0" expanded="true" />
-            <element signature="e#248#249#0" expanded="true" />
-            <element signature="e#276#277#0" expanded="true" />
-            <element signature="e#307#308#0" expanded="true" />
-            <element signature="e#334#335#0" expanded="true" />
-            <element signature="e#374#375#0" expanded="true" />
-            <element signature="e#406#407#0" expanded="true" />
+            <element signature="e#187#188#0" expanded="false" />
+            <element signature="e#212#213#0" expanded="false" />
+            <element signature="e#248#249#0" expanded="false" />
+            <element signature="e#276#277#0" expanded="false" />
+            <element signature="e#307#308#0" expanded="false" />
+            <element signature="e#334#335#0" expanded="false" />
+            <element signature="e#374#375#0" expanded="false" />
+            <element signature="e#406#407#0" expanded="false" />
           </folding>
         </state>
       </provider>
